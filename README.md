@@ -26,7 +26,8 @@
 ###客户端上网工具选择
 1 推荐使用[shadowsocks](https://shadowsocks.org/en/download/clients.html)，下载相应的版本。  
 2 以mac端为例，输入你的vps地址，以及端口，端口填写你容器的映射的端口，例如1984，填写密码。点击确定，打开浏览器，看是否实现了科学上网。 
-
+![image8](./imgs/img8.png)
+![image9](./imgs/img9.png)
 #### vpn的安装
 1 vpn的安装跟shadowsocks大同小异，从docker hub上找一个合适的镜像安装即可。  
 2 **提醒** macOS Sierra已经不支持pptp协议的vpn，如果需要用自带的网络连接连接vpn，请选择支持L2TP的镜像，我推荐这个镜像<https://hub.docker.com/r/hwdsl2/ipsec-vpn-server/>。  
